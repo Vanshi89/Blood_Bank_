@@ -1,0 +1,36 @@
+body {
+    background: url("https://media.tenor.com/eDfGjJ4hp_4AAAAC/red-blood-cells-national-geographic.gif");
+    background-size: cover;
+    /*background-repeat: no-repeat;
+    background: url("https://vitalrecord.tamhsc.edu/wp-content/uploads/2018/12/illustration-of-blood-vessels-1100x618.jpg");
+    width: auto;*/
+    animation: animateBackground 10s linear infinite;
+    overflow: hidden;
+}
+#signup_div {
+    max-width: 400px;
+    margin: auto;
+    top: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 12px;
+    padding: 2%;
+    position: relative;
+    background-color: rgba(61, 22, 22, 0.5);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+#signup {
+    background-color: black;
+    color: white;
+    width: 20%;
+    border-radius: 20px;
+    border: 6px solid black;
+    padding: 1%;
+    margin: auto;
+}
